@@ -1,0 +1,468 @@
+/*============================================================================================
+                Common styles
+ =============================================================================================*/
+ body {
+  font-family: 'Dosis', sans-serif;
+  background: #9EE0FF !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+button:focus {
+  outline: none; 
+}
+h2{
+  color: #004079;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* ========Home Section CSS Start========== */
+.home-section {
+  min-height: 700px;
+  width: 100%;
+  background-blend-mode: overlay;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* ========Home Section CSS End========== */
+/* ========service Section CSS Start========== */
+
+/*============service swiper start ============ */
+.service-section{
+  padding: 20px 0;
+  margin: auto;
+  width: 88% !important;
+}
+.service-swiper{
+  padding: 10px!important;
+  margin: 0 50px !important;
+
+}
+.service-swiper .swiper-wrapper{
+  width: 100%;
+  padding: 10px 0px 10px 0;
+}
+.service-swiper .swiper-wrapper .swiper-slide{
+  box-shadow: 1px 1px 5px #009CEC;
+  color: #00A1ED;
+  background: #fff;
+  border-radius: 5px;
+}
+.service-swiper .swiper-wrapper .swiper-slide p {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.service-swiper .swiper-wrapper .swiper-slide .image {
+  text-align: center;
+  padding: 10px 0;
+}
+.service-swiper .swiper-wrapper .swiper-slide .image img{
+  border-radius: 50%;
+  border: 4px solid #009CEC;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+}
+.service-section  .swiper-button-next{
+  color: #004079;
+  border: none;
+  background: none;
+  font-size: 40px;
+}
+.service-section  .swiper-button-prev{
+  color: #004079;
+  border: none;
+  background: none;
+  font-size: 40px;
+}
+.service-section >  .swiper-button-next::after, .swiper-button-prev::after{
+  display: none;
+}
+
+/* ========service Section CSS End========== */
+/* ========Features Section CSS Start========== */
+.core-feature-section{
+  padding: 10px 0 30px 0;
+  background-color: #ECF4FC;
+  width: 100%;
+}
+.core-feature-section .container-fluid .cftr-card-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.core-feature-section .container-fluid .cftr-card-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.core-feature-section .container-fluid .cftr-card-container .single-card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.core-feature-section .container-fluid .cftr-card-container .single-card {
+  color: #009CEC;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  gap: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #009CEC;
+}
+/* ========Features Details Section CSS End========== */
+.feature-detail-section{
+  background-color: #fff;
+  padding: 20px 0;
+}
+.feature-detail-section .ftrd-card-container{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.feature-detail-section .ftrd-card-container .single-card{
+  display: flex;
+  padding: 20px 8px;
+  background: #9EE0FF;
+  align-items: center;
+  justify-content: center;
+}
+.feature-detail-section .ftrd-card-container .single-card .text{
+  background: #fff;
+  padding: 20px 10px 0 20px;
+  color: #00A1ED;
+  border-radius: 10px;
+  width: 100%;
+}
+.feature-detail-section .ftrd-card-container .single-card .image{
+  width: 100%;
+}
+.feature-detail-section .ftrd-card-container .single-card .image img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  margin: 10px 0;
+}
+.feature-detail-section .ftrd-card-container .single-card .text .custom-btn {
+  background-color: #1AAAEE;
+  border: 1px solid #1AAAEE;
+  box-shadow: 1px 5px 9px #0b5070 inset;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+  width: 150px;
+  margin: 5px;
+  -webkit-transition: 1s; /* For Safari 3.0 to 6.0 */
+  transition: 1s;
+}
+.feature-detail-section .ftrd-card-container .single-card .text:hover .custom-btn{
+  background-color: #ee5d1a;
+  box-shadow: none;
+}
+
+/*====================image-section ====================*/
+.image-view-wrapper{
+  background-color: #d1edfb;
+}
+.image-section{
+  padding: 20px 0;
+  margin: auto;
+  width: 88% !important;
+}
+.image-swiper{
+  padding: 10px!important;
+  margin: 0 50px !important;
+
+}
+.image-swiper .swiper-wrapper{
+  width: 100%;
+  padding: 10px 0px 10px 0;
+}
+.image-swiper .swiper-wrapper .swiper-slide{
+  text-align: center;
+}
+.image-swiper .swiper-wrapper .swiper-slide img {
+  border: 5px solid #8ED8FB;
+  border-radius: 0 40px 0 40px;
+  width: 220px;
+  height: 220px;
+}
+.image-section  .swiper-button-next{
+  color: #004079;
+  border: none;
+  background: none;
+  font-size: 40px;
+}
+.image-section  .swiper-button-prev{
+  color: #004079;
+  border: none;
+  background: none;
+  font-size: 40px;
+}
+.image-section >  .swiper-button-next::after, .swiper-button-prev::after{
+  display: none;
+}
+
+/*========================= Service Package section css ===============================*/
+.service-package-section{
+  background-color: #9EE0FF;
+  padding: 20px;
+}
+.service-package-section .srvc-card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: auto;
+}
+.service-package-section .srvc-card-container .single-card{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 10px #009CEC ;
+}
+.service-package-section .srvc-card-container .single-card .text-center{
+  color: #009CEC;
+  font-size: 18px;
+}
+.service-package-section .srvc-card-container .single-card .text-center .price{
+  color: #0075AD;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.service-package-section .srvc-card-container .single-card .sub-card{
+  box-shadow: 0.5px 1px 8px #009CEC;
+  border-radius: 5px;
+  padding: 10px;
+  background: #fff;
+  -webkit-transition: 1s; /* For Safari 3.0 to 6.0 */
+  transition: 1s;
+}
+.service-package-section .srvc-card-container .single-card .sub-card .card-content{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #0075AD;
+  font-size: 16px;
+}
+.service-package-section .srvc-card-container .single-card .choose-btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.service-package-section .srvc-card-container .single-card .choose-btn > button{
+  background-color: #1AAAEE;
+  border: 1px solid #1AAAEE;
+  box-shadow: 1px 5px 9px #0b5070 inset;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px 25px;
+  transition: 1s;
+}
+.service-package-section .srvc-card-container .single-card:hover .choose-btn > button{
+  background-color: #ee5d1a;
+  box-shadow: none;
+}
+
+.service-package-section .srvc-card-container .single-card:hover .sub-card{
+  background-color: #1AAAEE;
+  transform: scale(1.1);
+}
+.service-package-section .srvc-card-container .single-card:hover .sub-card .card-content p{
+  color:  #fff;
+}
+/*=============================footer section start=====================================*/
+
+.footer-section {
+  position: relative;
+  padding: 0;
+  margin-top: 50px;
+  background-image: url(../img/footer\ –\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffff;
+}
+.footer-section .footer-top {
+  padding-top: 50px;
+  color: #003B42;
+  font-weight: 700;
+}
+.footer-section .footer-top .ft-single {
+  padding: 20px;
+}
+.footer-section .footer-top .ft-single .gradientText {
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 900;
+	background: linear-gradient(to bottom, #02435C 0%, #0360B3  100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.footer-section .footer-top .ft-single .ft-box-one .ft-data .location {
+  font-size: 17px;
+  padding-top: 11px;
+}
+.footer-section .footer-top .ft-single .ft-box-one .ft-data .ft-quict .contuctInfo .phone{
+  color: #068410;
+}
+.footer-section .footer-top .ft-single .hover:hover {
+  cursor: pointer;
+  color: orangered;
+}
+
+.footer-section .footer-top .ft-single .ft-box-two .ft-data ul {
+  margin-left: -30px;
+}
+.footer-section .footer-top .ft-single .ft-box-two .ft-data ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+.footer-section .footer-top .ft-single .ft-box-two .ft-data ul li a {
+  color: #003B42;
+  font-size: 17px;
+  text-decoration: none;
+}
+.footer-section .footer-top .ft-single .ft-box-two .ft-data ul li a:hover {
+  color: orangered;
+}
+.footer-section .footer-top .ft-box-three-wrapper{
+  display: flex;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social{
+  padding-top: 30px;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social ul li{
+  list-style: none;
+  font-size: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #003B42;
+  border-radius: 5px;
+  width: 30px;
+  margin-top: 6px;
+  text-align: center;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social .fb {
+  color: #0170ED;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social .tw {
+  color: #15A0F4;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social .link {
+  color: #0175A6;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social .ins {
+  color: #9D556F;
+}
+.footer-section .footer-top .ft-box-three-wrapper .ft-social .youtube {
+  color: #F60100;
+}
+
+.footer-section .footer-middle{
+  margin: auto;
+  padding: 30px 0;
+}
+.footer-section .footer-middle .member-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #003B42;
+  font-weight: 700;
+}
+.footer-section .footer-middle .member-list-container .member-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-section .footer-middle .member-list-container .ft-basis img {
+  height: 150px;
+}
+.footer-section .footer-middle .member-list-container .ft-qrCode a img {
+  height: 90px;
+}
+
+.footer-section .footer-bottom {
+  margin: auto;
+  padding-top: 12px;
+  background: #003B42;
+}
+.footer-section .footer-bottom .fb-wrapper .Copyright p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-section .footer-bottom .fb-wrapper .Copyright p a {
+  text-decoration: none;
+}
+.footer-section .footer-bottom .fb-wrapper .Copyright p span {
+  color: orangered;
+}
+
+/*============================================================================================
+                Media Queries Start
+ =============================================================================================*/
+
+ @media (max-width: 1534px){
+  .feature-section .container-fluid .ftr-card-container, .core-feature-section .container-fluid .cftr-card-container{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 1248px){
+  .feature-section .container-fluid .ftr-card-container, .core-feature-section .container-fluid .cftr-card-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 700px){
+  .feature-section .container-fluid .ftr-card-container, .core-feature-section .container-fluid .cftr-card-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px){
+  .feature-section .container-fluid .ftr-card-container, .core-feature-section .container-fluid .cftr-card-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+ 
+
+ @media (max-width: 991px){
+  .feature-detail-section .ftrd-card-container .sngcrd-2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 1534px){
+  .service-package-section .srvc-card-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1248px){
+  .service-package-section .srvc-card-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px){
+  .service-package-section .srvc-card-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+
+
+
+
+ 
+
+
+
+	
